@@ -1,0 +1,14 @@
+D:\DesignPatternsCSharp\DesignPatternsCSharp\bin\Debug\net8.0\DesignPatternsCSharp.exe
+D:\DesignPatternsCSharp\DesignPatternsCSharp\bin\Debug\net8.0\DesignPatternsCSharp.deps.json
+D:\DesignPatternsCSharp\DesignPatternsCSharp\bin\Debug\net8.0\DesignPatternsCSharp.runtimeconfig.json
+D:\DesignPatternsCSharp\DesignPatternsCSharp\bin\Debug\net8.0\DesignPatternsCSharp.dll
+D:\DesignPatternsCSharp\DesignPatternsCSharp\bin\Debug\net8.0\DesignPatternsCSharp.pdb
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\DesignPatternsCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\DesignPatternsCSharp.AssemblyInfoInputs.cache
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\DesignPatternsCSharp.AssemblyInfo.cs
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\DesignPatternsCSharp.csproj.CoreCompileInputs.cache
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\DesignPatternsCSharp.dll
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\refint\DesignPatternsCSharp.dll
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\DesignPatternsCSharp.pdb
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\DesignPatternsCSharp.genruntimeconfig.cache
+D:\DesignPatternsCSharp\DesignPatternsCSharp\obj\Debug\net8.0\ref\DesignPatternsCSharp.dll
