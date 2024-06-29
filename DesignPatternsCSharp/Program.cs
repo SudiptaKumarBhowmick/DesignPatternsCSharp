@@ -1,7 +1,5 @@
-﻿
-using DesignPatternsCSharp.FactoryMethod.ConcreteCreator;
-using DesignPatternsCSharp.FactoryMethod.Creator;
-using DesignPatternsCSharp.FactoryMethod.Product;
+﻿using DesignPatternsCSharp.BuilderMethod.Consumer;
+using DesignPatternsCSharp.FactoryMethod.Consumer;
 
 namespace DesignPatternsCSharp
 {
@@ -9,23 +7,13 @@ namespace DesignPatternsCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Implementation of factory method");
+            //FactoryMethodConsumer factoryMethodConsumer = new FactoryMethodConsumer();
+            //factoryMethodConsumer.ConsumeFactoryMethod();
 
-            Document[] documents = new Document[2];
-            documents[0] = new Resume();
-            documents[1] = new Report();
 
-            foreach (Document document in documents)
-            {
-                Console.WriteLine("\n" + document.GetType().Name + "--");
-                foreach (Page page in document.Pages)
-                {
-                    Console.WriteLine(" " + page.GetType().Name);
-                    page.PrintMessage();
+            BuilderMethodConsumer builderMethodConsumer = new BuilderMethodConsumer();
+            builderMethodConsumer.ConsumeBuilderMethod();
 
-                    Console.WriteLine("\n");
-                }
-            }
 
             Console.ReadKey();
         }
