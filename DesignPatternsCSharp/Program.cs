@@ -1,4 +1,5 @@
-﻿using DesignPatternsCSharp.BuilderMethod.Consumer;
+﻿using DesignPatternsCSharp.AbstractFactory.Consumer;
+using DesignPatternsCSharp.BuilderMethod.Consumer;
 using DesignPatternsCSharp.FactoryMethod.Consumer;
 
 namespace DesignPatternsCSharp
@@ -11,8 +12,12 @@ namespace DesignPatternsCSharp
             //factoryMethodConsumer.ConsumeFactoryMethod();
 
 
-            BuilderMethodConsumer builderMethodConsumer = new BuilderMethodConsumer();
-            builderMethodConsumer.ConsumeBuilderMethod();
+            //BuilderMethodConsumer builderMethodConsumer = new BuilderMethodConsumer();
+            //builderMethodConsumer.ConsumeBuilderMethod();
+
+
+            AbstractFactoryConsumer abstractFactoryConsumer = new AbstractFactoryConsumer();
+            abstractFactoryConsumer.ConsumeAbstractFactory();
 
 
             Console.ReadKey();

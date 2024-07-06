@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DesignPatternsCSharp\\DesignPatternsCSharp\\DesignPatternsCSharp.csproj": {}
+    "E:\\Projects\\DesignPatternsCSharp\\DesignPatternsCSharp\\DesignPatternsCSharp.csproj": {}
   },
   "projects": {
-    "D:\\DesignPatternsCSharp\\DesignPatternsCSharp\\DesignPatternsCSharp.csproj": {
+    "E:\\Projects\\DesignPatternsCSharp\\DesignPatternsCSharp\\DesignPatternsCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DesignPatternsCSharp\\DesignPatternsCSharp\\DesignPatternsCSharp.csproj",
+        "projectUniqueName": "E:\\Projects\\DesignPatternsCSharp\\DesignPatternsCSharp\\DesignPatternsCSharp.csproj",
         "projectName": "DesignPatternsCSharp",
-        "projectPath": "D:\\DesignPatternsCSharp\\DesignPatternsCSharp\\DesignPatternsCSharp.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\DesignPatternsCSharp\\DesignPatternsCSharp\\obj\\",
+        "projectPath": "E:\\Projects\\DesignPatternsCSharp\\DesignPatternsCSharp\\DesignPatternsCSharp.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\DesignPatternsCSharp\\DesignPatternsCSharp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +37,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
