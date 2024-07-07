@@ -1,5 +1,6 @@
 ﻿using DesignPatternsCSharp.AbstractFactory.Consumer;
 using DesignPatternsCSharp.BuilderMethod.Consumer;
+using DesignPatternsCSharp.CommandPattern.Consumer;
 using DesignPatternsCSharp.FactoryMethod.Consumer;
 using DesignPatternsCSharp.PrototypePattern.Consumer;
 
@@ -21,8 +22,12 @@ namespace DesignPatternsCSharp
             //abstractFactoryConsumer.ConsumeAbstractFactory();
 
 
-            PrototypePatternConsumer prototypePatternConsumer = new PrototypePatternConsumer();
-            prototypePatternConsumer.ConsumePrototypePattern();
+            //PrototypePatternConsumer prototypePatternConsumer = new PrototypePatternConsumer();
+            //prototypePatternConsumer.ConsumePrototypePattern();
+
+
+            CommandPatternConsumer commandPatternConsumer = new CommandPatternConsumer();
+            commandPatternConsumer.ConsumeCommandPattern();
 
 
             Console.ReadKey();

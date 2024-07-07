@@ -25,8 +25,6 @@ namespace DesignPatternsCSharp.PrototypePattern.Consumer
             Color color1 = colormanager["red"].Clone() as Color;
             Color color2 = colormanager["peace"].Clone() as Color;
             Color color3 = colormanager["flame"].Clone() as Color;
-            // Wait for user
-            Console.ReadKey();
         }
     }
 }
