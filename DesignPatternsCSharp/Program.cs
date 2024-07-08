@@ -6,6 +6,7 @@ using DesignPatternsCSharp.FactoryMethod.Consumer;
 using DesignPatternsCSharp.IteratorPattern.Consumer;
 using DesignPatternsCSharp.ObserverPattern.Consumer;
 using DesignPatternsCSharp.PrototypePattern.Consumer;
+using DesignPatternsCSharp.SingletonPattern;
 using DesignPatternsCSharp.StrategyPattern.Consumer;
 
 namespace DesignPatternsCSharp
@@ -46,8 +47,12 @@ namespace DesignPatternsCSharp
             //observerPatternConsumer.ConsumerObserverPattern();
 
 
-            StrategyPatternConsumer strategyPatternConsumer = new StrategyPatternConsumer();
-            strategyPatternConsumer.ConsumeStrategyPattern();
+            //StrategyPatternConsumer strategyPatternConsumer = new StrategyPatternConsumer();
+            //strategyPatternConsumer.ConsumeStrategyPattern();
+
+
+            SingletonClient singletonClient = new SingletonClient();
+            singletonClient.ConsumeSingletonPattern();
 
 
             Console.ReadKey();
