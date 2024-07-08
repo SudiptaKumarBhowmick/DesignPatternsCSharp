@@ -3,6 +3,7 @@ using DesignPatternsCSharp.BuilderMethod.Consumer;
 using DesignPatternsCSharp.CommandPattern.Consumer;
 using DesignPatternsCSharp.FacadePattern.Consumer;
 using DesignPatternsCSharp.FactoryMethod.Consumer;
+using DesignPatternsCSharp.IteratorPattern.Consumer;
 using DesignPatternsCSharp.PrototypePattern.Consumer;
 
 namespace DesignPatternsCSharp
@@ -31,8 +32,12 @@ namespace DesignPatternsCSharp
             //commandPatternConsumer.ConsumeCommandPattern();
 
 
-            FacadePatternConsumer facadePatternConsumer = new FacadePatternConsumer();
-            facadePatternConsumer.ConsumeFacadePattern();
+            //FacadePatternConsumer facadePatternConsumer = new FacadePatternConsumer();
+            //facadePatternConsumer.ConsumeFacadePattern();
+
+
+            IteratorPatternConsumer iteratorPatternConsumer = new IteratorPatternConsumer();
+            iteratorPatternConsumer.ConsumeIteratorPattern();
 
 
             Console.ReadKey();
